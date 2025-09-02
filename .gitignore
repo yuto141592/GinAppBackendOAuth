@@ -1,0 +1,32 @@
+# Go ビルド成果物
+/bin/
+/build/
+/dist/
+/*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# IDE / エディタ関連
+.vscode/
+.idea/
+*.swp
+
+# OS 依存ファイル
+.DS_Store
+Thumbs.db
+
+# Go Modules キャッシュ (必要に応じて)
+vendor/
+
+# Firebase サービスアカウントキー
+serviceAccountKey.json
+
+# その他の秘密鍵や環境ファイル
+*.pem
+*.key
+*.crt
+.env
