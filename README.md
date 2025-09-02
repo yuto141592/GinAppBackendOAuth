@@ -30,15 +30,11 @@ Ginの勉強のために開発しました。
   - 本番では `https://your-app.vercel.app` のみ許可
 - **Google Cloud Run** にデプロイ
   - Docker コンテナ化
-  - `PORT=8080` で待ち受け
   - Secret Manager / 環境変数で Firebase サービスアカウントを安全に管理
 
 ## 🌐 デプロイ構成
 - **フロントエンド**: GitHub → Vercel で自動デプロイ  
-- **バックエンド**: Docker 化して Google Cloud Run にデプロイ  
-- **認証情報**:  
-  - フロント → `.env` (REACT_APP_FIREBASE_*)  
-  - バックエンド → Secret Manager から注入  
+- **バックエンド**: コンテナ化して Google Cloud Run にデプロイ  
 
 ## 🔑 ログインフロー
 
