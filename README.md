@@ -45,7 +45,7 @@ sequenceDiagram
     participant Firebase Auth
     participant Gin Backend
 
-    User->>React App: メール & パスワードでログイン
+    User->>React App: メール ＆ パスワードでログイン
     React App->>Firebase Auth: signInWithEmailAndPassword()
     Firebase Auth-->>React App: IDトークン(JWT)を返す
     React App->>Gin Backend: Authorization: Bearer <JWT>
