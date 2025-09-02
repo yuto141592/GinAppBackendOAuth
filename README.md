@@ -1,4 +1,4 @@
-serviceURL: https://gin-app.vercel.app/login
+serviceURL: https://gin-app.vercel.app
 
 frontend: https://github.com/yuto141592/GinApp
 
