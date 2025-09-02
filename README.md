@@ -4,6 +4,8 @@ frontend: https://github.com/yuto141592/GinApp
 
 Ginの勉強のために開発しました。
 
+データベースも勉強のために実装する予定です。
+
 # Firebase + React + Gin (Go) Demo App
 
 このアプリは **Firebase Authentication** を利用したログイン機能と、  
