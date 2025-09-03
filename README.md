@@ -29,7 +29,7 @@ Ginの勉強のために開発しました。
   - 有効なら API 実行、不正なら `401 Unauthorized`
 - **CORS 設定**
   - 開発時は `*`（全許可）
-  - 本番では `https://your-app.vercel.app` のみ許可
+  - 本番では `https://gin-app.vercel.app` のみ許可
 - **Google Cloud Run** にデプロイ
   - Docker コンテナ化
   - Secret Manager / 環境変数で Firebase サービスアカウントを安全に管理
