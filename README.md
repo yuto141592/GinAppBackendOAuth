@@ -36,7 +36,7 @@ Ginの勉強のために開発しました。
 
 ## 🌐 デプロイ構成
 - **フロントエンド**: GitHub → Vercel で自動デプロイ  
-- **バックエンド**: コンテナ化して Google Cloud Run にデプロイ  
+- **バックエンド**: DockerイメージをArtifact RegistryにプッシュしてCloud Runにデプロイ 
 
 ## 🔑 ログインフロー
 
