@@ -24,6 +24,8 @@ vendor/
 
 # Firebase サービスアカウントキー
 serviceAccountKey.json
+client_secret_554058509692-12cfrjsd24c9ssfdnru0qqqddj8l0adn.apps.googleusercontent.com.json
+nil.json
 
 # その他の秘密鍵や環境ファイル
 *.pem
